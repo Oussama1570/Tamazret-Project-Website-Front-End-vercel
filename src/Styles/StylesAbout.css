@@ -151,11 +151,11 @@ transition: box-shadow 0.2s ease-in-out;}
 
 
   .Contact-Information {
-    margin-top: -11.5%;
+    margin-top: 500xp;
     padding: 350px !important;
     padding-top: -450px !important;
     font-family: Arial, sans-serif;
-    margin-bottom: -250px !important;
+    margin-bottom: 250xp !important;
     
     
   }
