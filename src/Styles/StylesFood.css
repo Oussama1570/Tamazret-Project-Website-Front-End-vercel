@@ -1,0 +1,94 @@
+/* Food container styling */
+.Food-Title { justify-content: center;
+     text-align: center;
+      margin-top: 6% !important;
+      font-size: 36px;
+      margin-bottom: auto;
+      margin-top: 15%;
+      color: rgb(18, 109, 56);
+      font-style: italic;
+      margin-bottom: 5%;
+      animation: rainbow 3s infinite linear;
+    cursor: pointer;}
+
+      
+      
+      @keyframes rainbow {
+        0% {
+          color: #ff0000;
+        }
+        25% {
+          color: #ffff00;
+        }
+        50% {
+          color: #00ff00;
+        }
+        75% {
+          color: #0000ff;
+        }
+        100% {
+          color: #ff0000;
+        }
+      }
+      
+
+.food-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 25%;
+    margin: 0 auto;
+    background-color: #f0e68c; /* A warm, inviting background color */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 5%;
+    margin-left: 35%;
+  }
+  
+  /* Food item styling */
+  .food-item {
+    text-align: center;
+    margin: 10px;
+    width: 95%;
+    background-color: #fff; /* White background for each item */
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out; /* Add hover effect transition */
+    margin-bottom: 5%;
+  }
+  
+  .food-item:hover {
+    transform: scale(1.05); /* Add hover effect - slight zoom */
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+  
+  /* Title styling */
+  .Food-Titles {
+    font-size: 20px;
+    margin-bottom: 25px;
+    font-weight: bold;
+    color: rgb(110, 30, 6); /* Deep red color */
+    font-style: italic;
+  }
+  
+  /* Image styling */
+  .Food-Images {
+    border-radius: 5px; /* Rounded corners for images */
+    width: 100%; /* Ensure images fill the container */
+    height: 200px; /* Set a fixed height for consistent dimensions */
+    object-fit: cover; /* Crop images to fit within the container */
+    margin-bottom: 25px;
+  }
+  
+  /* Description styling */
+  .Food-description {
+    font-size: 16px;
+    line-height: 1.5; /* Adjust line height for better readability */
+    font-size: 18px;
+  margin-top: 5%;
+  text-align: center;
+  font-weight: 600;
+  font-size: 16.5px;
+  }

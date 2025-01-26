@@ -1,0 +1,584 @@
+/** FirstTitle-Tamazret-the-village-of-Berbers CSS **/
+
+
+.Container-Title {margin-top: 15%; position: absolute; right: 7% !important;}
+/** Container-Title CSS  with animations : Transitions Scale and bounce **/
+
+.Container-Title {justify-content: center;
+   margin-left: 15% !important;
+   margin-top: 10%;
+   margin-right: 0%;
+   margin-bottom: 4% !important;
+   font-weight: 550;
+  
+
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 2rem ;
+    text-align: center;
+    position: relative;
+    color: #4b1606;
+    transition: transform 0.3s ease-in-out;
+    color: #000;
+    transition: color 0.3s ease-in-out;
+    
+  }
+  
+  .Container-Title:hover {
+    color: #277209;
+  }
+
+.Introdescription-1 {color: #000000 !important;}
+.Introdescription-2 {color: #000000 !important;}
+
+.Intro-title {justify-content: center; text-align: center; margin-top: 5%; font-family: Arial, Helvetica, sans-serif; font-weight: 700;
+  font-size: 60px; font-style: italic;
+color: #703709 ;cursor: pointer;}
+
+.Intro-title {
+  justify-content: center;
+  text-align: center;
+  margin-top: 5%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 60px;
+  font-style: italic;
+  color: #4b1606;
+  
+  
+  /* Remove box-shadow */
+  /* transition: transform 0.3s ease-in-out; */ /* Optional, keep if needed for other effects */
+}
+.Intro-title {
+  animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes typing {
+  to {
+    width: 100%;
+  }
+}
+
+/* Introduction Image Tamazret CSS with animation : Transition scale */
+
+  .IMGIntro {justify-content: center; height: 322px; width: 520px; margin-right: 250px !important;margin-left:534px;
+    margin-top: 80px;  margin-bottom: 80px; border-radius: 4%;   }
+    .IMGIntro {
+      transition: transform 0.2s ease-in-out;
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    }
+    
+    .IMGIntro:hover {
+      transform: scale(1.2);
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    }
+
+/* Introduction Introdescription Tamazret CSS with animation : Transition scale */
+
+.Introdescription  {
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 5%;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 25px;
+  color: #050505 !important;
+  background-color: beige;
+  border-radius: 15px;
+  padding: 1% 1%;
+  font-size: 20px;
+  font-weight: 545 !important;
+ 
+  
+}
+
+/** Welcome-to-Tamazret-section CSS **/ 
+
+/** Welcome-title with animation: infinite **/
+
+.welcome-title {text-align: center; justify-content: center;color: rgb(255, 255, 255); margin-bottom: 2%;
+font-size: 40px;}
+.welcome-title {
+  font-size: 40px; /* Adjust font size as needed */
+  font-weight: bold;
+  color: #000000; /* Change color to your preference */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+  animation: title-animation 2s infinite; /* Set animation duration and repetition */
+  
+  background: linear-gradient(to right, #15631b, #eefaed); /* Gradient colors */
+  -webkit-background-clip: text; /* For Safari */
+  -webkit-text-fill-color: transparent; /* For Safari */
+  cursor: pointer;
+}
+.welcome-title:hover {
+  color: #ff0000;
+  animation: bounce 0.5s ease-in-out;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-20px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  75% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+
+  }
+}
+
+
+.video-Tamazret-court-métrage {height: 370px; width: 650px; border-radius: 20px;}
+
+/** description-Vidéo with CSS **/
+.description-Vidéo { justify-content: center;
+  text-align: center;
+  margin-top: 2.8%;
+  margin-bottom: 5%;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 25px;
+  color: #050505 !important;
+  background-color: beige;
+  border-radius: 15px;
+  padding: 1% 1%;
+  font-size: 20px;
+  font-weight: 545 !important;
+}
+
+/** Tamazret Large Title Benefits and Qualities **/
+
+.The-fabulous-Tamazret-Title {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  color: #084e44;
+  font-style: italic;
+  
+}
+    
+  
+  .The-fabulous-Tamazret-Title:hover {
+    color: #370741; /* Change the color to your desired hover color */
+    cursor: pointer;
+    
+    
+  }
+
+.centered-Fabulous-tamazret-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.The-Haven-Tamazret {
+  width: 750px; /* Adjust the width as needed */
+  height: 950px;
+  height: auto;
+  margin-bottom: 40px;
+  border-radius: 8px;
+  transition: transform 0.2s ease-in-out;
+  
+  }
+
+  .The-Haven-Tamazret:hover {
+    transform: scale(1.2);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  }
+
+  
+
+  .Centered-description-Haven-Tamazret
+  { margin-top: 4%;
+    margin-bottom: 4%;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 25px;
+    color: #050505 !important;
+    background-color: beige;
+    border-radius: 15px;
+    padding: 1% 1%;
+    font-size: 20px;
+    font-weight: 545 !important;
+    margin-bottom: 1.5em;}
+
+  .Centered-description-Haven-Tamazret {
+    padding: 1% 1%; color: #000000;
+   
+}
+
+.Centered-description-Haven-Tamazret {color: #000;}
+
+
+.Title-Discovery
+{ text-align: center;
+  margin-bottom: 20px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  color: #084e44;
+  font-style: italic;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 1px 1px 2px rgba(0, 0, 0, 0.2), 2px 2px 4px rgba(0, 0, 0, 0.2), 3px 3px 6px rgba(0, 0, 0, 0.2), 4px 4px 8px rgba(0, 0, 0, 0.2);
+  color: rgba(255, 136, 1, 0.5);
+  stroke: #eefaed;
+  
+    
+}
+.Title-Discovery:hover  {
+  transform: perspective(500px) rotateX(10deg) rotateY(10deg);
+  cursor: pointer;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+
+
+article {
+  --img-scale: 1.001 !important;
+  --title-color: black !important;
+  --link-icon-translate: -20px !important;
+  --link-icon-opacity: 0 !important;
+  position: relative !important;
+  border-radius: 16px !important;
+  box-shadow: none !important;
+  background: #fff !important;
+  transform-origin: center !important;
+  transition: all 0.4s ease-in-out !important;
+  overflow: hidden !important;
+}
+
+article a::after {
+  position: absolute !important;
+  inset-block: 0 !important;
+  inset-inline: 0 !important;
+  cursor: pointer !important;
+  content: "" !important;
+}
+
+/* basic article elements styling */
+article h2 {
+  margin: 0 0 18px 0 !important;
+  font-family: "Bebas Neue", cursive !important;
+  font-size: 1.9rem !important;
+  letter-spacing: 0.06em !important;
+  color: var(--title-color) !important;
+  transition: color 0.3s ease-out !important; 
+  cursor: pointer !important;
+}
+
+figure {
+  margin: 0 !important;
+  padding: 0 !important;
+  aspect-ratio: 16 / 9 !important;
+  overflow: hidden !important;
+}
+
+article img {
+  max-width: 100% !important;
+  transform-origin: center !important;
+  transform: scale(var(--img-scale)) !important;
+  transition: transform 0.4s ease-in-out !important; 
+}
+
+.article-body {
+  padding: 24px !important;
+}
+
+article a {
+  display: inline-flex !important;
+  align-items: center !important;
+  text-decoration: none !important;
+  color: #28666e !important;
+}
+
+article a:focus {
+  outline: 1px dotted #28666e !important;
+}
+
+article a .icon {
+  min-width: 24px !important;
+  width: 24px !important;
+  height: 24px !important;
+  margin-left: 5px !important;
+  transform: translateX(var(--link-icon-translate)) !important;
+  opacity: var(--link-icon-opacity) !important;
+  transition: all 0.3s !important;
+}
+
+/* using the has() relational pseudo selector to update our custom properties */
+article:has(:hover, :focus) {
+  --img-scale: 1.1 !important;
+  --title-color: #28666e !important;
+  --link-icon-translate: 0 !important;
+  --link-icon-opacity: 1 !important;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px !important;
+}
+
+
+/************************ 
+Generic layout (demo looks)
+**************************/
+
+
+body {
+  margin: 0;
+  padding: 48px 0;
+  font-family: "Figtree", sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  min-height: 100vh;
+}
+
+.articles {
+  display: grid;
+  max-width: 1200px;
+  margin-inline: auto;
+  padding-inline: 24px;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 24px;
+  text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5); /* Adjust values as needed */
+}
+
+@media screen and (max-width: 960px) {
+  article {
+    container: card/inline-size;
+  }
+  .article-body p {
+    display: none;
+  }
+}
+
+@container card (min-width: 380px) {
+  .article-wrapper {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    gap: 16px;
+  }
+  .article-body {
+    padding-left: 0;
+  }
+  figure {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  figure img {
+    height: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+  }
+}
+
+.sr-only:not(:focus):not(:active) {
+  clip: rect(0 0 0 0); 
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap; 
+  width: 1px;
+}
+
+/** Tamazret Festivals and Mariages section CSS **/
+
+.container-Jahfa {
+  display: block;;
+  align-items: center;
+  margin-top: 20%;
+}
+
+.Jahfa-Title {
+  color: #750a2e;
+  font-style: italic;
+  margin-top: 10%;
+  margin-bottom: 0%;
+  margin-left: 35%;
+  animation: title-animation 2s infinite;
+  background: linear-gradient(to right, #7a063d, #068545); /* Gradient colors */
+-webkit-background-clip: text; /* For Safari */
+-webkit-text-fill-color: transparent; /* For Safari */
+cursor: pointer;
+  
+}
+
+
+
+
+.Jahfa-Title:hover {
+color: #ff0000;
+animation: bounce 0.5s ease-in-out;
+}
+
+@keyframes bounce {
+0% {
+  transform: translateY(0);
+}
+25% {
+  transform: translateY(-20px);
+}
+50% {
+  transform: translateY(0);
+}
+75% {
+  transform: translateY(-10px);
+}
+100% {
+  transform: translateY(0);
+
+}
+}
+
+
+.Tamazret-Jahfa-Img {
+  width: 450px; /* Adjust the width as needed */
+  height: 380px;
+  border-radius: 3%;
+  justify-content: center;
+  margin-left: 35%;
+  margin-top: -15%;
+  margin-bottom: 5%;
+  transform: rotate(0deg);
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 4px 6px 6px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.Tamazret-Jahfa-Img:hover {
+  transform: rotate(360deg);
+}
+
+.Tamazret-Jahfa-Text {
+  margin-left: 20px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 16.5px; /* Adjust the margin as needed */
+  margin-right: 150px;
+  margin-left: 150px;
+}
+
+
+/** Conclusion **/
+
+.Title-Conclusion {
+  justify-content: center; text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  color: #370741;
+  font-size: 45px; 
+  cursor: pointer;  
+}
+
+.Title-Conclusion {
+  transition: transform 0.3s ease-in-out;
+}
+
+.Title-Conclusion:hover {
+  transform: rotate(15deg); /* Adjust the rotation angle as needed */
+}
+.conclusion-tamazret {
+  text-align: center;
+}
+
+.centered-image-conclusion {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 5%;
+  max-width: 800px; /* Adjust the maximum width as needed */
+  border-radius: 2%;
+  animation: rotate 2s infinite linear;
+}
+
+.centered-image-conclusion:hover {
+  filter: sepia(100%);
+}
+
+
+.Text-Conclusion {
+margin-top: 4%;
+    margin-bottom: 4%;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 25px;
+    color: #050505 !important;
+    background-color: beige;
+    border-radius: 15px;
+    padding: 1% 1%;
+    font-size: 20px;
+    font-weight: 545 !important;
+    margin-bottom: 1.5em; }
+
+
+    /** Google Maps Iframe Styles CSS **/
+  
+
+  .location-title { text-align: center;
+    margin-left: 1%;
+    margin-top: 5%;
+    font-style: italic;
+    color: #137909;
+    animation: bounce 2s infinite;
+    cursor: pointer;}
+ 
+ 
+   @keyframes bounce {
+     0%, 100% {
+       transform: translateY(0);
+     }
+     50% {
+       transform: translateY(-20px);
+     }
+   }
+   
+ 
+   .Google-Maps-Tamazret {
+     margin-top: 10% !important;
+     margin-left: 540px!important;
+     margin-right: auto !important;
+      /* This will center the element horizontally */
+     width: 1000px !important;
+     border-radius: 3% !important;
+     justify-content: center !important;
+     align-items: center !important;
+     
+   }

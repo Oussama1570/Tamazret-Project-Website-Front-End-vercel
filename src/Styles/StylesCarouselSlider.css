@@ -1,0 +1,18 @@
+/** Carousel Slider CSS **/
+
+#Img-Carousel {height:500px !important; width:800px  !important; margin-left: 24%; margin-top: 5%; border-radius: 2%;
+    box-shadow: 4px 8px 12px 0px rgba(0, 0, 0, 0.2); /* Add a shadow */
+  
+  }
+
+  .Titles-Carousel {  font-size: 25px;}
+
+  .Paragraph-Carousel {color: antiquewhite !important; font-size: medium; font-family: Arial, Helvetica, sans-serif; }
+
+  .CarouselSlider-item::before,
+  .CarouselSlider-item::after {
+    background-color: transparent !important; /* Remove blue background */
+  }
+
+  .CarouselSlider {position: absolute !important;
+     position: relative !important; top: 100px !important;  left: auto !important;}

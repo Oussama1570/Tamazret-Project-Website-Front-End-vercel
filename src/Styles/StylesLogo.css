@@ -1,0 +1,14 @@
+/* Logo CSS */
+
+.Logo {justify-content : center !important; margin-left: 41.5% !important; margin-top: 0.5% !important;
+    height:160px; width: 260px; border-radius: 5%; }
+    
+    .Logo {
+        transition: transform 0.2s ease-in-out !important;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2) !important;
+      }
+      
+      .Logo:hover {
+        transform: scale(1.2) !important;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3) !important;
+      }

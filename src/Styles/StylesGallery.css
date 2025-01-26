@@ -1,0 +1,39 @@
+/** Tamazret's Gallery Images: Houses and Caves **/
+
+  .gallery-container {
+    text-align: center;
+    margin-top: 5%;
+  }
+
+  .Gallery-Title {text-align: center; justify-content: center;
+color: rgb(88, 9, 9);}
+  
+  .image-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Adjust the gap as needed */
+  }
+  
+  .gallery-image {
+    width: 280px; /* Adjust the image width as needed */
+    height: 250px;
+    border-radius: 1.5%;
+    transition: transform 0.3s ease-in-out;
+  }
+    
+  
+  .gallery-image:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+  }
+
+  
+  .main-description-gallery {
+  font-size: 18px;
+  margin-top: 5%;
+  margin-right: 8%;
+  margin-left: 8%;
+  text-align: center;
+  font-weight: 600;
+  font-size: 16.5px;
+  }

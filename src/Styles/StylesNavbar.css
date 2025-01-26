@@ -1,0 +1,88 @@
+/* Navbar CSS */
+
+nav {
+  margin: -50px !important;
+  padding: 0 !important;
+  padding-top: 15px !important;
+  background-image: url('../Images/Arriére-plan pour Navbar.jpg'); /* Replace with your image path */
+  border-radius: 2.5% !important;
+  display: flex; /* or grid for more complex layouts */
+  flex-wrap: wrap !important;
+  justify-content: space-between; /* Center links horizontally */
+  padding: 0.5rem 2rem; /* Adjust padding as needed (replace 1rem with your desired spacing) */
+  margin: -50px !important; /* Adjust margin as needed */
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2) !important;
+  margin-left: 425px !important;
+  margin-right: 480px !important;
+  ;
+}
+
+
+
+ul {
+  display: flex; /* or inline-flex for horizontal alignment */
+  list-style-type: none !important;
+  text-align: center; /* Text alignment is applied to <li> elements */
+  margin: 0; /* Remove margins for proper alignment */
+  padding: 0; /* Remove padding for proper alignment */
+}
+
+li {
+  padding: 1rem 2rem 1.15rem;
+  text-transform: uppercase !important;
+  cursor: pointer !important;
+  color: #ebebeb !important;
+  min-width: 80px !important;
+  list-style: none !important;
+}
+
+a {
+  text-decoration: none !important;
+  color: rgb(255, 255, 255) !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-weight: 800 !important;
+  font-style: italic !important;
+}
+
+li:hover {
+  background-image: url('https://scottyzen.sirv.com/Images/v/button.png') !important; /* Replace with your hover background image */
+  background-size: 100% 100% !important;
+  color: #27262c !important;
+  animation: spring 300ms ease-out !important;
+  text-shadow: 0 -1px 0 #ef816c !important;
+  font-weight: bold !important;  
+
+}
+
+li:active {
+  transform: translateY(4px) !important;
+}
+
+@keyframes spring {
+  15% {
+    transform-origin: center center;
+    transform: scale(1.2, 1.1);
+  }
+  40% {
+    transform-origin: center center;
+    transform: scale(0.95, 0.95);
+  }
+  75% {
+    transform-origin: center center;
+    transform: scale(1.05, 1);
+  }
+  100% {
+    transform-origin: center center;
+    transform: scale(1, 1);  
+
+  }
+}
+
+.shameless-plug {
+  position: absolute !important;
+  bottom: 10px !important;
+  right: 0 !important;
+  padding: 8px 20px !important;
+  color: #ccc !important;
+  text-decoration: none !important;
+}

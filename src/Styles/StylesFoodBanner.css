@@ -1,0 +1,23 @@
+.banner-Food {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .banner-Food img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .banner-Food-text {
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  .banner-Food button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }

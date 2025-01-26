@@ -1,0 +1,282 @@
+/** Tourism Container Places of Entertainment CSS **/
+
+/** Dar Ayed **/
+
+.component-container-Dar-Ayed {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align items to the left */
+  padding: 20px;
+  margin-left: 30px; 
+  display: block;
+  margin-top: 200px;
+}
+
+.component-title-Dar-Ayed {
+  font-size: 24px;
+  margin-bottom: 10px;
+  margin-top: 8%;
+  margin-left: 4.5%;
+  color: rgb(85, 38, 6);
+  font-weight: 700;
+  font-style: italic;
+  font-size: 85 px;
+  cursor: pointer;
+
+ }
+
+
+ .component-title-Dar-Ayed {
+  display: inline-block;
+  padding: 10px;
+  
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.component-title-Dar-Ayed:hover {
+  transform: rotateY(-180deg); /* Adjust rotation as needed */
+  animation: headShake 0.5s 1; /* Replace with desired animation */
+}
+
+
+
+.image-container-Dar-Ayed {
+  width: 610px !important; /* Adjust the width as needed */
+  height: 380px !important; /* Adjust the height as needed */
+  overflow: hidden;
+  margin-top: 3.5%;
+  margin-left: 1%;
+  
+}
+
+
+.image-container-Dar-Ayed {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  border-radius: 1.5% !important; 
+
+}
+
+.image-container-Dar-Ayed {
+  transform: rotate(0deg);
+  transition: transform 0.3s ease-in-out;
+}
+
+.image-container-Dar-Ayed:hover {
+  transform: rotate(360deg);
+}
+
+
+
+.Img-Dar-Ayed {border-radius: 1.5%;}
+
+.description-container-Dar-Ayed {
+  margin-left: 2%;
+  margin-top: 3%; 
+   margin-right: 60%;
+  /* Adjust the margin for spacing */text-align: center;
+  font-weight: 600;
+  font-size: 16.5px;
+
+}
+
+.video-Dar-Ayed {
+  width: 600px; /* Adjust the width as needed */
+  height: 350px;
+  margin-right: 80% !important;
+  border-radius: 2% !important; /* Adjust the height as needed */
+  margin-left: -2.8% !important;
+  margin-top: 3%;
+}
+
+/** Auberge Tamazret **/
+
+.component-container-Auberge-Tamazret {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align items to the left */
+  padding: 20px;
+  margin-bottom: 20px; /* Add a margin between containers */
+  justify-content: right;
+  display: block; 
+  margin-left: 62%;
+  margin-left: 40%;
+}
+
+.component-title-Auberge-Tamazret {
+  font-size: 24px;
+  margin-bottom: 50px;
+  margin-top: 8%;
+  margin-left: 1%;
+  text-align: center;
+  color: rgb(6, 85, 55);
+  font-weight: 700;
+  font-style: italic;
+  cursor: pointer;
+}
+
+.component-title-Auberge-Tamazret {
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  transition: text-shadow 0.3s ease-in-out;
+}
+
+.component-title-Auberge-Tamazret:hover {
+  text-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+
+
+
+.image-container-Auberge-Tamazret {
+  width: 810px !important; /* Adjust the width as needed */
+  height: 380px !important; /* Adjust the height as needed */
+  overflow: hidden;
+  margin-top: 3.5%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  border-radius: 1.5% !important; 
+  margin-right: 100%;
+  margin-left: 5.5%;
+  
+}
+
+.image-container-Auberge-Tamazret{
+  transform: skew(0deg, 0deg);
+  transition: transform 0.3s ease-in-out;
+}
+
+.image-container-Auberge-Tamazret:hover {
+  transform: skew(20deg, 20deg);
+}
+
+
+.Img-Auberge-Tamazret {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+
+}
+
+.description-container-Auberge-Tamazret {
+  margin-left: 20px; /* Adjust the margin for spacing */
+  margin-top: 4%;
+  text-align: center;
+  margin-right: 4%;
+  font-weight: 600;
+  font-size: 16.5px;
+  
+
+}
+
+.video-container-Auberge-Tamazret {
+  width: 600px; /* Adjust the width as needed */
+  height: 350px;
+  border-radius: 2% !important;
+  margin-top: 2%;
+}
+
+/** Café Berbere **/
+
+.component-container-Café-Berbere {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align items to the left */
+  padding: 20px;
+  margin-left: 30px; 
+  display: block;
+}
+
+.component-container.right {
+  justify-content: flex-end;
+}
+
+.component-title-Café-Berbere {
+  font-size: 24px;
+  margin-top: 4%;
+  margin-bottom: 10px;
+  margin-left: 15.5% !important;
+  margin-bottom: 3.5%;
+  color: rgb(146, 98, 10);
+  font-weight: 700;
+  font-style: italic;
+  cursor: pointer;
+  
+}
+
+
+.component-title-Café-Berbere {
+  letter-spacing: 0;
+  transition: letter-spacing 0.3s ease-in-out;
+}
+
+.component-title-Café-Berbere:hover {
+  letter-spacing: 2px;
+}
+
+
+
+
+.image-container-Café-Berbere {
+  width: 200px; /* Adjust the width as needed */
+  height: 200px; /* Adjust the height as needed */
+  overflow: hidden;
+  width: 610px !important; /* Adjust the width as needed */
+  height: 380px !important; /* Adjust the height as needed */
+  overflow: hidden;
+  margin-left: 1%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  border-radius: 1.5% !important; 
+}
+.image-container-Café-Berbere {
+  border: 1px solid transparent;
+  transition: border 0.3s ease-in-out;
+}
+
+.image-container-Café-Berbere:hover {
+  border: 2px solid #ff0000;
+}
+
+
+
+.Img--Café-Berbere {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+
+}
+
+.description-container-Café-Berbere {
+  margin-left: 20px; /* Adjust the margin for spacing */
+  margin-left: 80px;
+    margin-right: 62%;
+    margin-top: 4%;
+    
+  /* Adjust the margin for spacing */text-align: center;
+  font-weight: 600;
+  font-size: 16.5px;
+}
+
+.video-container-Café-Berbere {
+  width: 600px; /* Adjust the width as needed */
+  height: 350px;
+  margin-right: 100% !important;
+  border-radius: 2% !important; /* Adjust the height as needed */
+  margin-left: -12% !important;
+  margin-top: 2%;
+}
+
+
+
+.component-container {
+  display: flex;
+  justify-content: space-between; /* Adjust as needed */
+}
+
+
+
+

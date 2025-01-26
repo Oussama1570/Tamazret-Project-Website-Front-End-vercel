@@ -1,0 +1,213 @@
+.About-Tamazret-Title {text-align: center;
+     margin-top: 10% !important;
+     margin-bottom: 5%;
+     font-size: 36px;
+     font-style: italic;
+     color: #0c757c;
+     cursor: pointer;
+     animation: glitch 1s infinite;}
+
+   
+      @keyframes glitch {
+        0% {
+          transform: skewX(-10deg);
+        }
+        50% {
+          transform: skewX(10deg);
+        }
+        100% {
+          transform: skewX(-10deg);
+        }
+      }
+
+.About-Tamazret-Description {font-size: 18px;
+    margin-top: 5%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    font-weight: 600;
+    font-size: 16.5px;}
+
+
+.about-container {
+    /* Styles for the overall container */
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    
+  }
+  
+  .element-container {
+    /* Styles for the container holding the three elements */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  
+  .element {
+    /* Styles for each individual element */
+    width: 300px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-right:25%;
+  }
+  
+  .element.left {
+    /* Styles for the left element */
+    text-align: left;
+    display: flex;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 1200px;
+  }
+
+  
+  .About-Imgn1 {
+    transition: box-shadow 0.2s ease-in-out;
+  }
+  
+  .About-Imgn1:hover {
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .About-description-1 {font-size: 18px;
+    margin-top: 40%;
+    margin-bottom: 20%;
+    margin-right:-800px !important;
+    margin-left:50px !important;
+    text-align: center;
+    font-weight: 600;
+    font-size: 16.5px;
+    
+  }
+  
+  .element.right {
+    /* Styles for the right element */
+    text-align: right;
+    display: flex;
+    flex-direction: column; /* Change to column to stack text and image */
+    align-items: center; /* Center both text and image vertically */
+    margin-left: 100px !important;
+    margin-top: 25%;
+    margin-left: auto;
+}
+
+.About-Imgn2{justify-content: right;
+margin-left: 1020px;
+margin-top: -340px;
+transition: box-shadow 0.2s ease-in-out;}
+
+
+.About-Imgn2:hover {
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.About-description-2 {
+    font-size: 18px;
+    margin-top: 20px; /* Adjust margin-top as needed */
+    margin-bottom: 20%;
+    text-align: center;
+    font-weight: 600;
+    font-size: 16.5px;
+    margin-left: -100px; /* Remove margin-left */
+    margin-right: -20%; /* Remove margin-right */
+}
+
+    
+
+  .About-description-3 {font-size: 18px;
+    margin-top: 20% !important;
+    margin-right: -58% !important;
+    margin-left:10% !important;
+    text-align: center;
+    font-weight: 600;
+    font-size: 16.5px;
+ }
+
+ 
+.About-Imgn3 {margin-top: 35% !important;
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.About-Imgn3:hover {
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+  .element img {
+    /* Styles for images within the elements */
+    width: 500px;
+    height: 400px;
+    border-radius: 1.5%;
+
+  }
+
+  
+    
+    
+
+/** Contact Information Styles CSS **/
+
+
+  .Contact-Information {
+    margin-top: -11.5%;
+    padding: 350px !important;
+    padding-top: -450px !important;
+    font-family: Arial, sans-serif;
+    margin-bottom: -250px !important;
+    
+    
+  }
+
+  
+
+  
+  .background {
+    background-color: #0c757c;
+    border-radius: 3.5%; /* Replace with your background image path */
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items:center; 
+    border: 1px solid #ccc;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2), inset 0px -2px 2px rgba(0, 0, 0, 0.1);
+}
+
+
+  
+  
+  .contact-info {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    animation: pulse 2s infinite;  
+  
+  }
+
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+      }
+  
+  p {
+    font-size: 18px;
+    margin-bottom: 0px;
+  }

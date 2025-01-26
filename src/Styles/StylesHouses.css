@@ -1,0 +1,245 @@
+/* Banner Tamazret Caves CSS */
+
+.banner-Houses {
+    background-color: #b89a9a;
+    padding: 50px;
+    text-align: center;
+    margin-top: 5%;
+    
+  }
+  
+  .banner-Houses img {
+    height: 850px;
+    margin-bottom: 20px;
+    width: 100%;
+    border-radius: 1.5%;
+    box-shadow: 5px 8px 10px rgba(0, 0, 0, 0.2);
+    transform: rotate(0deg);
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
+    
+  }
+
+    
+  .banner-Houses img:hover {
+    transform: scale(0.5);
+  }
+  
+  
+  
+  
+  .banner-text {
+    color: #333;
+    font-family: Arial, sans-serif;
+  }
+  
+  .banner-text h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    font-style: italic;
+    letter-spacing: 0;
+    transition: letter-spacing 0.3s ease-in-out;
+    cursor: pointer;
+    
+  }
+
+  
+  
+  .banner-text h1:hover {
+    letter-spacing: 2px;
+  }
+
+  
+  .banner-text p {
+    color: white;
+    font-size: 19px;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    background-color: #4CAF50 !important;
+    color: rgb(30, 102, 15) !important;
+    font-weight: 700 !important;
+    padding: 15px 32px !important;
+    text-align: center !important;
+    text-decoration: none !important;
+    display: inline-block !important;
+    font-size: 16px !important;
+    margin: 4px 2px !important;
+    cursor: pointer !important;  
+  
+  
+    transition: background-color 0.3s ease-in-out !important; /* Add this line */
+  }
+  
+  .btn:hover {
+    background-color: rgb(196, 116, 129) !important; /* Change the background color on hover */
+    color: white !important;
+  }
+
+
+ 
+
+
+  /** Houses Content CSS **/
+
+  .container {
+    text-align: center;
+    margin: 0 auto; /* Center the container horizontally */
+    max-width: 800px; /* Optional: Set a maximum width for responsiveness */
+  }
+  
+  .title {
+    font-size: 36px;
+    margin-bottom: 20px;
+    margin-top: 15%;
+    color: rgb(83, 2, 83);
+    font-style: italic;
+    margin-bottom: 5%;
+    letter-spacing: 0;
+    transition: letter-spacing 0.3s ease-in-out;
+  }
+
+    
+  .title:hover {
+    letter-spacing: 2px;
+    cursor: pointer;
+  }
+  
+  .image {
+    width: auto;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 1.5%;
+     margin-left: 34%;
+     transform: skew(0deg, 0deg);
+    transition: transform 0.3s ease-in-out;
+    filter: grayscale(0);
+    transition: filter 0.3s ease-in-out;
+    cursor: pointer;
+     
+  }
+
+  
+  .image:hover {
+    filter: grayscale(1);
+  }
+  
+
+  
+  
+  .description {
+  font-size: 18px;
+  margin-top: 5%;
+  text-align: center;
+  font-weight: 600;
+  font-size: 16.5px;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: 1fr; /* Adjust columns as needed */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+  }
+
+/** Description Content : History, Caves-Dwellings, Life in Caves CSS **/
+
+  .History-description {
+    font-size: 18px;
+  margin-top: 5%;
+  text-align: center;
+  font-weight: 600;
+  font-size: 16.5px;
+  }
+
+  .Caves-Dwellings-description {
+    font-size: 18px;
+  margin-top: 5%;
+  text-align: center;
+  font-weight: 600;
+  font-size: 16.5px;
+  }
+
+  .Life-in-Caves-description {
+    font-size: 18px;
+  margin-top: 5%;
+  text-align: center;
+  font-weight: 600;
+  font-size: 16.5px;
+  }
+
+  .Title-History {margin-top: 5%; font-style: italic; font-size: 25px; color: #18461a;}
+
+  .Title-Caves-Dwellings {margin-top: 5%; font-style: italic; font-size: 25px; color: #18461a;}
+
+  .Title-Life-in-Caves {margin-top: 5%; font-style: italic; font-size: 25px; color: #18461a;}
+
+  /** Gallery Houses and Caves of Tamazret CSS **/
+
+  .Gallery-Title { justify-content: center;
+     text-align: center;
+     font-style: italic;
+     color: beige;
+     margin-top: 10%;
+    margin-bottom: 5%;
+    margin-right: 170px;
+    font-weight: normal;
+    transition: font-weight 0.3s ease-in-out;
+    cursor: pointer;}
+
+    
+    .Gallery-Title:hover {
+      font-weight: bold;
+    }
+
+
+
+  
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .gallery img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin:10px;
+  }
+
+/** Gallery Images of Caves in Tamazret CSS **/
+
+.Gallery-Tamazret {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Adjust image size as needed */
+    gap: 10px; /* Adjust spacing as needed */
+    justify-content: center; /* Center the gallery horizontally */
+    align-items: center; /* Center the images vertically */
+    padding: 20px;
+    margin-left: 9%;
+  }
+  
+  .houses img {
+    width: 30%; /* Ensure images fill the container */
+    height: 200px; /* Set a fixed height for consistent dimensions */
+    object-fit: cover;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .houses img:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+  }
+
+.Gallery-Content-Text { 
+  font-size: 18px;
+  margin-top: 5%;
+  text-align: center;
+  font-weight: 600;
+  font-size: 16.5px;
+margin-right: 8%;
+margin-left: 0%;}

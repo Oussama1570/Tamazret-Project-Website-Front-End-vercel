@@ -1,0 +1,39 @@
+/** Background Image Body CSS **/
+
+body {background-image: url("../Images/Background-Img.png");
+  
+  }
+
+/** Fade In Effect CSS **/
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.App {
+  
+  opacity: 1;
+  animation: fadeIn 1s ease-in-out;
+}
+/** Media query (992px and 1200px) CSS **/
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    /* Adjust font size for better readability on medium screens */
+    body {
+        font-size: 18px;
+    }
+
+    /* Change layout for medium screens */
+    .container {
+        max-width: 900px;
+    }
+}
+
+
+
